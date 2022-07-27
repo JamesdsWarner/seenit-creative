@@ -1,0 +1,25 @@
+.banner-container {
+    position: fixed;
+    background-color: #FCF4E8;
+
+    top: 0;
+    left: 0;
+    z-index: 999;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;    // overflow: hidden;
+gap: 20%;
+    .creative-logo{
+        @media screen and (max-width: 800px) {
+            width: 300px;
+        }
+        @media screen and (min-width: 801px){
+            width: 35vw;
+            max-width: 415px;
+        }
+        margin-top: -5px;
+        align-self: center;
+        filter: invert(20%) sepia(92%) saturate(3242%) hue-rotate(336deg) brightness(85%) contrast(98%);
+    }
+}
