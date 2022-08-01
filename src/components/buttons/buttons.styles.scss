@@ -1,7 +1,17 @@
-.buttons-container{
-    height: 100%;
-    width: 100%;
+.nav-menu {
+
+    display: block;
+
+.buttons-container {
     display: flex;
-margin-top: 16px;
+    align-items: center;
+    height: 80px;
+
+    .nav-link{
+        text-decoration: none;
+        color: black;
+    }
+    }
+
 
 }

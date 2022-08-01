@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Euclid-bold';
+    src: local('Euclid-bold'), url(../../fonts/Euclid-Circular-A-Bold.ttf) format('opentype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+  @font-face {
+    font-family: 'Euclid';
+    src: local('Euclid'), url(../../fonts/EuclidCircularA-Regular.otf) format('opentype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
+.services-container{
+    background-color: #FCDF6A;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+    padding-top: 70px;
+
+}
+
+        
+    .services-inner{
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    p {
+        white-space: pre-line;
+        text-align: center;
+        font-family: 'Euclid';
+        font-size: 1.25rem;
+      }
+
+      h3{
+        font-family: 'Euclid-bold';
+        font-size: 3.5rem;
+        margin: 0;
+      }
+      

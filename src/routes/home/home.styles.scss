@@ -1,0 +1,46 @@
+.video-container {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 80px;
+    
+  
+  }
+  
+  .body-container{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  
+  .led-by{
+    margin-top: 50px;
+   width: 30%;
+   margin-bottom: 337px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+  }
+  
+
+  
+  .orange-circle{
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    top: -250px;
+    right: -245px;
+    width: 550px;
+  }
+  
+  .purple-circle{
+    overflow: hidden;
+    position: absolute;
+    z-index: 0;
+    bottom: -250px;
+    left: -245px;
+    width: 550px;
+  
+  }
